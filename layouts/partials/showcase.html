@@ -25,8 +25,8 @@
                 {{ range .Site.Data.homepage.showcase.socialLinks }}
                 <a href="{{ .URL | absURL }}" target="_blank"><i class="icon-{{ .icon }}-line"></i></a>
                 {{ end }}
-                <a href="/Carola_Marini_Resume.pdf" class="btn cv " target="_blank" download>
-                    <i class="{{ .Site.Data.homepage.experience.button2.icon }} cv icon-">
+                <a href="/Carola_Marini_Resume.pdf" class="btn" target="_blank" download>
+                    <i class="{{ .Site.Data.homepage.experience.button2.icon }}">
                     </i>
                     {{ .Site.Data.homepage.experience.button2.btnText }}
                 </a>

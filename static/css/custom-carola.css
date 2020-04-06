@@ -3,13 +3,6 @@
     font-size: x-large !important;
 }
  
-.cv:hover{
-    transform: scale(1);
-}
-
-a.btn.cv:hover{
-    transform: scale(1);
-}
 
 .row.platform-links{
     margin-top: 0 !important;
@@ -33,4 +26,17 @@ a.btn.cv:hover{
 
 .about__profile-picture img {
     border-radius: 0% 50% 50% 0%
+}
+
+.btn{
+   vertical-align: unset !important;
+}
+
+.contact__info{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.section--border-bottom::after {
+    background-color: none;
 }

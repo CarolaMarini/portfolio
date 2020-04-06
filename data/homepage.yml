@@ -39,8 +39,8 @@ about:
     talking with users to iterate and improve the experiences that reach business goals.
     </p>'
   image:
-    x: "img/who-am-i/user-picture-carola.png"
-    _2x: "img/who-am-i/carola-user-picture@2x.png"
+    x: "img/who-am-i/user-picture-carola.jpeg"
+    _2x: "img/who-am-i/carola-user-picture@2x.jpeg"
 
 # education
 education:
@@ -181,9 +181,9 @@ testimonial:
 # contact
 contact:
   enable: true
-  title: "Contact"
+  title: "Let's talk!"
   form:
-    action: "#"
+    action: "mailto:caro.marini@live.com.ar"
     full_name: "Full Name"
     email: "Email Address"
     message: "Type Your Message Here"
