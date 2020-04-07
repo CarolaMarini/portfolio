@@ -4,7 +4,7 @@ showcase:
   title: "Hello, I’m Carola."
   subtitle: "FullStack Developer"
   description: "Pragmatic, passionate, and always open to new challenges. <br>
-  I enjoy building everything from small businesses sites to rich interactive web apps. If you need a website or if you are looking to hire, you can contact me 
+  I enjoy building everything from small businesses sites to rich interactive web apps. If you need a website or if you are looking to hire, you can find my contact information 
   <a target='_blank' href='#contact'>here</a>."
   image:
     x: "img/showcase/showcase.png"
@@ -29,14 +29,12 @@ about:
   enable: true
   title: "Who am I?"
   content: '<p class="lead">
-    I am back, after a few days of vacationing with family. Weather was awesome, the beach was
-    full of nasty jelly-fish, yuk! All-in-all, life has been good. I hope life has been as
-    good for all of you.
+  Professionally, my area of expertise is web development. I aim to create beautiful and simple websites tailored to my client needs. I’m in continuous search for the best practices in software development.
     </p>
     <p class="lead">
-    My area of focus lies in designing web and mobile products, user research as well as
-    leading of design & front-end teams. I enjoy designing and coding the UI as much as
-    talking with users to iterate and improve the experiences that reach business goals.
+
+    On my free time, I love trying out new restaurants or recipes, playing boardgames and videogames, reading, practicing yoga and spending time in nature! 
+  
     </p>'
   image:
     x: "img/who-am-i/user-picture-carola.jpeg"
