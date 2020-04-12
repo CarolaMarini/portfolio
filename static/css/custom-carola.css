@@ -40,3 +40,36 @@
 .section--border-bottom::after {
     background-color: none;
 }
+
+
+@media (min-width: 992px){
+    .section .row.row--padded {
+        margin-top: auto
+    }
+}
+
+@media (min-width: 768px){
+    .testimonial .icon-quote {
+        margin-bottom: 5px;
+    }
+}
+
+@media (min-width: 992px){
+    .experience__title {
+        font-size: 26px;
+    }
+}
+
+.education__degree, .experience__date {
+    font-size: 16px;
+    font-weight: 300;
+    color: #333;
+    z-index: 2;
+    position: relative;
+}
+
+.experience__company {
+    font-size: 16px;
+    font-weight: 700;
+    color: #e93e34;
+}
