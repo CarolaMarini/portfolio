@@ -10,7 +10,7 @@ showcase:
     x: "img/showcase/showcase.png"
     _2x: "img/showcase/showcase@2x.png"
   imageMobile:
-    x: "img/showcase/showcase-mobile.jpg"
+    x: "img/showcase/showcase-mobile.jpg"                     
 
   button:
     icon: "icon-mail-fill"
@@ -111,7 +111,7 @@ contact:
     message: "Type Your Message Here"
   phone:
     title: "Phone Number"
-    number: "+36 662 402 899"
+    number: "+34 662 402 899"
   email:
     title: "Email"
     email: '<a href="mailto:caro.marini@live.com.ar">caro.marini@live.com.ar</a>'
