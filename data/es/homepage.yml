@@ -1,0 +1,118 @@
+# showcase
+showcase:
+  enable: true
+  title: "Hola, soy Carola."
+  subtitle: "FullStack Developer"
+  description: "Pragmática, apasionada, y siempre dispuesta a enfrentar nuevos desafíos. <br>
+  Disfruto crear aplicaciones de todo tipo, desde páginas para empresas pequeñas, hasta web apps ricas en interactividad. Si necesitas un sitio web o si estas buscando contratar un programador, puedes contactarme
+  <a target='_blank' href='#contact'>aquí</a>."
+  image:
+    x: "img/showcase/showcase.png"
+    _2x: "img/showcase/showcase@2x.png"
+  imageMobile:
+    x: "img/showcase/showcase-mobile.jpg"                     
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contacto"
+    URL: "https://radity.com/en/contact/"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/carolamarini"
+
+    - icon: "github"
+      URL: "https://github.com/CarolaMarini"
+
+# about
+about:
+  enable: true
+  title: "Sobre mí"
+  content: '<p class="lead">
+  Profesionalmente, mi especialidad es el desarrollo web. Aspiro a crear sitios web simples y bellos, adaptados a las necesidades de mis clientes. Estoy en constante búsqueda de las mejores practicas en desarrollo de software.
+    </p>
+    <p class="lead">
+
+    En mi tiempo libre, me encanta probar nuevos restaurantes y recetas, jugar juegos de mesa o de computadora, leer, practicar yoga y pasar tiempo en la naturaleza! 
+  
+    </p>'
+  image:
+    x: "img/who-am-i/user-picture-carola.jpeg"
+    _2x: "img/who-am-i/carola-user-picture@2x.jpeg"
+
+
+# experience
+experience:
+  enable: true
+  title: "Experiencia"
+
+  items:
+    - title: "FullStack Developer"
+      company: "Minty Host"
+      duration: "Jan 2020 - Mar 2020"
+  
+  button2:
+      icon: "icon-profile-fill"
+      btnText: "Descargar mi CV"
+
+
+# Client & Work
+client_and_work:
+  title: "Portfolio"
+  enable: true
+
+  works:
+    - title: "Minty Host - MyPlazze"
+      description: "MyPlazze es una aplicación móvil para la gestión de tareas de limpieza en viviendas de uso turístico."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Google Play"
+        URL: "https://play.google.com/store/apps/details?id=com.mintyhost.myplazze"
+      image:
+        x: "img/works/myplazze.png"
+        _2x: "img/works/myplazze.png"
+      is_even: true
+
+
+# testimonial
+testimonial:
+  enable: true
+  title: "Referencias"
+  items:
+    - name: "Pablo del Valle"
+      position: "Minty Host, Jefe de producto"
+      content: "
+      Carola es una desarrolladora junior muy aplicada y con grandes ansias de crecer como profesional. El tiempo que estuvo en nuestro equipo fue su primera experiencia profesional relacionada con el desarrollo
+      informático. Como es habitual en cualquier alta de empleado, esperábamos un periodo de adaptación de uno o varios meses. Sin embargo, nos sorprendió a todos demostrando
+      capacidad para resolver problemas por su cuenta y asumiendo la responsabilidad de sus
+      tareas con autonomía y confianza. En poco tiempo se adaptó al stack tecnológico del
+      equipo de desarrollo y llegó a desarrollar piezas de principio a fin, desde la definición
+      funcional hasta llevarlo a producción (tanto en web como en app móvil).
+      Lamentablemente, por circunstancias ajenas a su desempeño y al del departamento,
+      tuvimos que dejar de contar con ella. Si tuviéramos oportunidad de recuperar sus
+      servicios en el futuro, sin duda haríamos lo posible. Mientras tanto, si le surgiera alguna
+      oportunidad laboral en otra empresa, no dudaría en recomendar su contratación."
+      image:
+        x: "img/testimonials/pablo.jpeg"
+        _2x: "img/testimonials/pablo@2x.jpeg"
+
+
+# contact
+contact:
+  enable: true
+  title: "¡Hablemos!"
+  form:
+    action: "mailto:caro.marini@live.com.ar"
+    full_name: "Full Name"
+    email: "Email Address"
+    message: "Type Your Message Here"
+  phone:
+    title: "Número de teléfono"
+    number: "+34 662 402 899"
+  email:
+    title: "Correo electrónico"
+    email: '<a href="mailto:caro.marini@live.com.ar">caro.marini@live.com.ar</a>'
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
+

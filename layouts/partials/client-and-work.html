@@ -1,10 +1,12 @@
 {{ if .Site.Data.homepage.client_and_work.enable }}
+{{ $data := index .Site.Data .Site.Language.Lang	 }}
+{{ range $data }}
 <section id="portfolio" class="section">
   <div class="container">
     <h2 class=" rad-animation-group rad-fade-down">
-      {{ .Site.Data.homepage.client_and_work.title }}
+      {{ .client_and_work.title }}
     </h2>
-    {{ range $index, $element := .Site.Data.homepage.client_and_work.works }}
+    {{ range $index, $element := .client_and_work.works }}
     <div
       class="row row--padded rad-animation-group rad-fade-down {{ if .is_even }}flex-column-reverse flex-md-row{{ end }}">
       {{ if .is_even }}
@@ -43,4 +45,5 @@
     {{ end }}
   </div>
 </section>
+{{ end }}
 {{ end }}

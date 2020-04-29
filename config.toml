@@ -1,7 +1,7 @@
 baseURL = "/"
 languageCode = "en-us"
 theme = "raditian"
-title = "something more personal"
+title = "Carola Marini"
 
 # Plugins
 [params.plugins]
@@ -98,3 +98,16 @@ gzip = false
 [[deployment.matchers]]
 pattern = "^.+\\.(html|xml|json)$"
 gzip = true
+
+DefaultContentLanguage = "en"
+
+[languages]
+  [languages.es]
+
+    weight = 2
+    contentDir = "data/en"
+ 
+  [languages.en]
+
+    weight = 1
+    contentDir = "data/es"
