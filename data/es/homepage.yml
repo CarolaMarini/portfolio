@@ -116,3 +116,22 @@ contact:
     icon: "icon-mail-fill"
     btnText: "Send Message"
 
+
+
+
+#header
+
+menu:
+  header:
+    - name: Home
+      URL: '/es'
+      weight: 1
+    - name: Sobre mí
+      URL: '#about'
+      weight: 2
+    - name: Portfolio
+      URL: '#portfolio'
+      weight: 3
+    - name: Contacto
+      URL: '#contact'
+      weight: 4

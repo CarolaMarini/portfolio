@@ -24,22 +24,6 @@ title = "Carola Marini"
 
 
 # navigation
-[menu]
-
-  [[menu.header]]
-  name = "About"
-  URL = "#about"
-  weight = 2
-
-  [[menu.header]]
-  name = "Portfolio"
-  URL = "#portfolio"
-  weight = 3
-
-  [[menu.header]]
-  name = "Contact"
-  URL = "#contact"
-  weight = 4
 
 
   [[menu.footer]]
@@ -105,9 +89,10 @@ DefaultContentLanguage = "en"
   [languages.es]
 
     weight = 2
-    contentDir = "data/en"
+    contentDir = "data/es"
+    
  
   [languages.en]
 
     weight = 1
-    contentDir = "data/es"
+    contentDir = "data/en"
